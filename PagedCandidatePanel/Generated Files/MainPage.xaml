@@ -19,7 +19,7 @@
     </Page.Resources>
     
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ScrollViewer x:Name="TEMPLATE_PART_CandidateScrollViewer"
+        <ScrollViewer x:ConnectionId='1' x:Name="TEMPLATE_PART_CandidateScrollViewer"
                         HorizontalAlignment="Stretch"
                         VerticalAlignment="Top"
                         VerticalScrollBarVisibility="Disabled"
@@ -64,3 +64,4 @@
         </ScrollViewer>
     </Grid>
 </Page>
+
